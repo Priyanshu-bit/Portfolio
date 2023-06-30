@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { BsLinkedin } from 'react-icons/bs';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
@@ -42,11 +42,15 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:priyanshupatel56@gmail.com" className="p-text">priyanshupatel56@gmail.com</a>
+          <a href="mailto:priyanshupatel56@gmail.com" className="pov">priyanshupatel56@gmail.com</a>
         </div>
         <div className="app__footer-card">
-          <img src={images.mobile} alt="phone" />
-          <a href="tel:+91 7240375171" className="p-text">+91 7240375171</a>
+       <img src={images.linkedin} alt='linkedin'/>
+          <a href="https://www.linkedin.com/in/priyanshu-patel/" target="_blank" rel="noopener noreferrer"  className="pov">
+
+         
+                         <span> LinkedIn  </span>
+     </a>
         </div>
       </div>
       {!isFormSubmitted ? (

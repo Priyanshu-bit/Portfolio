@@ -1,16 +1,25 @@
 .app {
-    background-color: var(--primary-color);
+  
+   
+  
+  background-color: var(--primary-color);
     font-family: var(--font-base);
   }
   
   .app__whitebg {
-    background-color: var(--white-color);
+   // background: linear-gradient(-20deg, rgb(75, 7, 179) 0%, rgb(251, 252, 219) 100%);
+   // background-color: var(--white-color);
+   background: linear-gradient(to bottom right, #3d6cb9, #000000);
   }
     .app__bluebg {
-        background-color:rgb(74, 72, 72);
+      //background: linear-gradient(-20deg, rgb(75, 7, 179) 0%, rgb(251, 252, 219) 100%);
+        //background-color:rgb(74, 72, 72);
+        background: linear-gradient(to bottom right, #3d6cb9, #000000);
       }
       .app__yellowbg {
-        background-color:yellow;
+       // background-color:yellow;
+       //background: linear-gradient(-20deg, rgb(75, 7, 179) 0%, rgb(251, 252, 219) 100%);
+       background: linear-gradient(to bottom right, #3d6cb9, #000000);
       }
   
   
@@ -54,7 +63,7 @@
   
     p {
       text-transform: uppercase;
-      color: var(--black-color);
+      color: var(--white-color);
     }
   }
   
@@ -62,8 +71,12 @@
     font-size: 2.75rem;
     font-weight: 800;
     text-align: center;
-    color: var(--black-color);
+    color: black;
     text-transform: capitalize;
+
+    .about-text {
+      color: var(--white-color);
+    }
   
     span {
       color: var(--secondary-color);
@@ -79,7 +92,7 @@
   }
   
   .p-text {
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: left;
     color: var(--gray-color);
     line-height: 1.5;
@@ -88,10 +101,31 @@
       font-size: 1.75rem;
     }
   }
+
+  .test{
+    font-size: 1rem;
+    text-align: left;
+    color: var(--white-color);;
+    line-height: 1.5;
+  
+    @media screen and (min-width: 2000px) {
+      font-size: 1.75rem;
+    }
+  }
+  .t{
+    font-size: 1rem;
+    text-align: left;
+    color: var(--white-color);;
+    line-height: 1.5;
+  
+    @media screen and (min-width: 2000px) {
+      font-size: 1.75rem;
+    }
+  }
   
   .bold-text {
-    font-size: 1rem;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: 1000;
     color: var(--black-color);
     text-align: left;
   
@@ -133,7 +167,7 @@
       }
   
       &:hover {
-        background-color: var(--secondary-color);
+        background-color:black ;
         border-color: var(--secondary-color);
   
         svg {
@@ -193,3 +227,5 @@
       padding: 2rem;
     }
   }
+
+

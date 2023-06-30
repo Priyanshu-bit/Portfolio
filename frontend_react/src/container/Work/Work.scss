@@ -25,8 +25,8 @@
       margin: 0.5rem;
   
       &:hover {
-        background-color: var(--secondary-color);
-        color: #fff;
+        background-color: black;
+        color: rgb(222, 17, 17);
       }
   
       @media screen and (min-width: 2000px) {
@@ -37,9 +37,17 @@
   
     .item-active {
       background-color: var(--secondary-color);
-      color: #fff;
+      //color: #fff;
     }
   }
+
+  .app__work-content {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  
+  
   
   .app__work-portfolio {
     display: flex;
@@ -50,7 +58,7 @@
     .app__work-item {
       width: 270px;
       flex-direction: column;
-  
+  height:600px;
       margin: 2rem;
       padding: 1rem;
       border-radius: 0.5rem;
@@ -154,3 +162,9 @@
       top: -25px;
     }
   }
+
+
+
+
+
+  

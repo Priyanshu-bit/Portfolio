@@ -9,8 +9,9 @@ const AppWrap = (Component, idName, classNames) => function HOC() {
         <Component />
 
         <div className="copyright">
-          <p className="p-text">@2020 PRIYANSHU</p>
-          <p className="p-text">All rights reserved</p>
+      
+         <p className="test" >@2023 PRIYANSHU</p>
+          <p className="test">All rights reserved</p>
         </div>
       </div>
       <NavigationDots active={idName} />
@@ -18,4 +19,4 @@ const AppWrap = (Component, idName, classNames) => function HOC() {
   );
 };
 
-export default AppWrap;
+export default AppWrap; 

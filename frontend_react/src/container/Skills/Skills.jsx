@@ -42,7 +42,7 @@ const Skills = () => {
               >
                 <img src={urlFor(skill.icon)} alt={skill.name} />
               </div>
-              <p className="p-text">{skill.name}</p>
+              <p className="test">{skill.name}</p>
             </motion.div>
           ))}
         </motion.div>
@@ -67,7 +67,7 @@ const Skills = () => {
                       key={work.name}
                     >
                       <h4 className="bold-text">{work.name}</h4>
-                      <p className="p-text">{work.company}</p>
+                      <p className="t">{work.company}</p>
                     </motion.div>
                     <ReactTooltip
                       id={work.name}

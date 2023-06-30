@@ -6,8 +6,8 @@
     align-items: center;
   
     padding: 1rem 2rem;
-    background: rgba(236, 4, 4, 0.25);
-    // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background-color:rgba(0, 0, 0, 0.6);
+         box-shadow: 0 8px 32px 0 rgba(74, 83, 213, 0.37);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -36,14 +36,16 @@
   
   .app__navbar-links {
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
   
     list-style: none;
   
     li {
+      
       margin: 0 1rem;
+      
       cursor: pointer;
   
       flex-direction: column;
@@ -58,17 +60,18 @@
       }
   
       a {
-        color: var(--gray-color);
+        color:whitesmoke;
         text-decoration: none;
         flex-direction: column;
   
         text-transform: uppercase;
-        font-weight: 500;
+        font-weight: 700;
   
         transition: all 0.3s ease-in-out;
   
         &:hover {
-          color: var(--secondary-color);
+          color:pink
+          // var(--secondary-color);
         }
       }
   
@@ -99,7 +102,7 @@
     svg {
       width: 70%;
       height: 70%;
-      color: var(--white-color);
+      color: black;
     }
   
     div {
@@ -178,4 +181,16 @@
 
 
 
-  
+  .sign{
+    font-family: 'Dancing Script', cursive;
+      font-size: 30px;
+     // font-style: italic;
+      /* Other desired styles */
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+    
+    
+  }
+
+
+ 

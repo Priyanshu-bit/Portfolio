@@ -34,8 +34,8 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">Web Developer</p>
-          <p className="p-text">Competitive Programmer</p>
+          <p className=" colo " >MERN Stack Developer: Crafting Dynamic Web Solutions</p>
+          
         </div>
       </div>
     </motion.div>
@@ -48,7 +48,7 @@ const Header = () => (
       <img src={images.profile} alt="profile_bg" />
       <motion.img
         whileInView={{ scale: [0, 1] }}
-        transition={{ duration: 1, ease: 'easeInOut' }}
+        transition={{ duration: 1.5, ease: 'easeInOut' }}
         src={images.circle}
         alt="profile_circle"
         className="overlay_circle"
@@ -60,7 +60,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.flutter, images.redux, images.sass].map((circle, index) => (
+      {[images.mongo,images.react,images.express,images.node].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>

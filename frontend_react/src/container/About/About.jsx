@@ -18,7 +18,19 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
+    
+      <h2 className="head-r"><span className='symbol'>~</span> A<span className='col'>B</span><span className='o'>O</span><span className='colorr'>U</span>T <span className='symbol'>~</span></h2><br/>
+        <br></br>
+        <br></br>
+        <div className="about-box">
+      <div className="box-heading">
+      </div>
+      <div className="box-content">
+        <span className='alignn'>
+        Passionate MERN Stack Developer with a strong foundation in modern web development technologies. I specialize in building robust and scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). With a deep understanding of front-end and back-end development, I excel at designing and implementing efficient, responsive, and user-friendly interfaces.
+        </span>
+      </div>
+      </div>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
@@ -31,10 +43,11 @@ const About = () => {
           >
             <img src={urlFor(about.imgUrl)} alt={about.title} />
             <h2 className="bold-text" style={{ marginTop: 20 }}>{about.title}</h2>
-            <p className="p-text" style={{ marginTop: 10 }}>{about.description}</p>
+            <p className="rty" style={{ marginTop: 10 }}>{about.description}</p>
           </motion.div>
         ))}
       </div>
+     
     </>
   );
 };
